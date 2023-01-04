@@ -1,7 +1,10 @@
 :root {
-    --color-0: #212529;
-    --color-1: #adb5bd;
-    --color-2: #f8f9fa;
+    --color-0: #121212;
+    --color-1: #1f1f1f;
+    --color-2: #f0f0f0;
+    --color-3: #b9b9b9;
+    --color-4: #8d8d8d;
+    --default-transition: 0.2s;
 }
 
 * {
@@ -11,5 +14,18 @@
 
 body {
     background: var(--color-0);
+    color: var(--color-2);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: var(--color-2);
+    text-decoration: none;
+    font-weight: bold;
+    transition: var(--default-transition);
+}
+
+a:hover {
+    color: var(--color-3);
+    transition: var(--default-transition);
 }
