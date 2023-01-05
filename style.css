@@ -4,8 +4,12 @@
     --color-2: #f0f0f0;
     --color-3: #b9b9b9;
     --color-4: #8d8d8d;
+    --color-5: #c02525;
+    --color-6: #991c1c;
     --container-width: 55vw;
     --default-container-padding: 40px 0;
+    --default-border-radius: 10px;
+    --default-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
     --default-transition: 0.2s;
 }
 
@@ -32,19 +36,25 @@ header {
 }
 
 a {
-    color: var(--color-2);
     text-decoration: none;
-    transition: var(--default-transition);
-}
-
-a:hover {
-    color: var(--color-3);
-    transition: var(--default-transition);
 }
 
 p {
     color: var(--color-4);
     line-height: 23px;
+}
+
+.btn-red {
+    padding: 10px 25px;
+    color: var(--color-2);
+    background: var(--color-5);
+    border-radius: var(--default-border-radius);
+    transition: var(--default-transition);
+}
+
+.btn-red:hover {
+    background: var(--color-6);
+    transition: var(--default-transition);
 }
 
 .card {
@@ -54,19 +64,53 @@ p {
     justify-content: space-between;
 }
 
+.card-de-projeto {
+    width: 230px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .container {
     width: var(--container-width);
     margin: 0 auto;
     padding: var(--default-container-padding);
 }
 
+.img-card-de-projeto {
+    width: 100%;
+    border-radius: var(--default-border-radius);
+    box-shadow: var(--default-box-shadow);
+}
+
+.link-red {
+    color: var(--color-5);
+}
+
+.link-red:hover {
+    text-decoration: underline;
+}
+
 .nav-link {
     margin: 0 10px;
     font-weight: bold;
+    color: var(--color-2);
+    transition: var(--default-transition);
+}
+
+.nav-link:hover {
+    color: var(--color-3);
+    transition: var(--default-transition);
 }
 
 .texto-do-card {
     width: 60%;
+}
+
+.titulo-da-secao {
+    margin-bottom: 20px;
 }
 
 #foto-perfil {
