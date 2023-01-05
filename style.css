@@ -14,12 +14,12 @@
 }
 
 * {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
 
 body {
-    scroll-behavior: smooth;
     background: var(--color-0);
     color: var(--color-2);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
