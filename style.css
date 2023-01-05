@@ -19,6 +19,7 @@
 }
 
 body {
+    scroll-behavior: smooth;
     background: var(--color-0);
     color: var(--color-2);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -64,12 +65,8 @@ p {
     justify-content: space-between;
 }
 
-.cards-de-projetos {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.card-de-habilidade {
+    width: 230px;
 }
 
 .card-de-projeto {
@@ -85,6 +82,13 @@ p {
     width: var(--container-width);
     margin: 0 auto;
     padding: var(--default-container-padding);
+}
+
+.container-de-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .img-card-de-projeto {
@@ -115,6 +119,10 @@ p {
 
 .texto-do-card {
     width: 60%;
+}
+
+.titulo-da-habilidade {
+    margin-bottom: 10px;
 }
 
 .titulo-da-secao {
