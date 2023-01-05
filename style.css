@@ -5,6 +5,7 @@
     --color-3: #b9b9b9;
     --color-4: #8d8d8d;
     --container-width: 55vw;
+    --default-container-padding: 40px 0;
     --default-transition: 0.2s;
 }
 
@@ -56,7 +57,7 @@ p {
 .container {
     width: var(--container-width);
     margin: 0 auto;
-    padding: 120px 0;
+    padding: var(--default-container-padding);
 }
 
 .nav-link {
@@ -71,4 +72,8 @@ p {
 #foto-perfil {
     width: 130px;
     border-radius: 70px;
+}
+
+#sobre {
+    padding-top: 120px;
 }
