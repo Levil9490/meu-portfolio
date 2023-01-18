@@ -154,14 +154,18 @@ p {
 	padding-top: 120px;
 }
 
-@media screen and (max-width: 850px) {
-	.card-de-projeto {
+@media screen and (max-width: 830px) {
+	.texto-do-card {
 		width: 100%;
+	}
+
+	#foto-perfil {
+		margin-bottom: 30px;
 	}
 }
 
-@media screen and (max-width: 1100px) {
-	.texto-do-card {
-		width: 300px;
+@media screen and (max-width: 850px) {
+	.card-de-projeto {
+		width: 100%;
 	}
 }
