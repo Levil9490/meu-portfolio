@@ -13,6 +13,11 @@
 	--default-transition: 0.2s;
 }
 
+@font-face {
+	font-family: 'RobotoMono-Regular';
+	src: url(fonts/RobotoMono-Regular.ttf);
+}
+
 * {
 	scroll-behavior: smooth;
 	margin: 0;
@@ -22,7 +27,8 @@
 body {
 	background: var(--color-0);
 	color: var(--color-2);
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'RobotoMono-Regular';
+	letter-spacing: 1px;
 }
 
 footer {
@@ -44,13 +50,17 @@ a {
 	text-decoration: none;
 }
 
+h1 {
+	font-size: 38px;
+}
+
 p {
 	color: var(--color-4);
-	line-height: 23px;
+	line-height: 24px;
 }
 
 .area-de-btns {
-	width: 150px;
+	width: 190px;
 	margin-top: 30px;
 	display: flex;
 	align-items: center;
@@ -125,6 +135,7 @@ p {
 .nav-link {
 	margin: 0 10px;
 	font-weight: bold;
+	/*letter-spacing: 2px;*/
 	color: var(--color-2);
 	transition: var(--default-transition);
 }
@@ -156,6 +167,14 @@ p {
 }
 
 @media screen and (max-width: 830px) {
+	.card-de-habilidade {
+		width: 100%;
+	}
+
+	.container {
+		width: 80vw;
+	}
+
 	.texto-do-card {
 		width: 100%;
 	}
