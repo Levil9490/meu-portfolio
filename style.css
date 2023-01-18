@@ -1,161 +1,167 @@
 :root {
-    --color-0: #121212;
-    --color-1: #1f1f1f;
-    --color-2: #f0f0f0;
-    --color-3: #b9b9b9;
-    --color-4: #8d8d8d;
-    --color-5: #c02525;
-    --color-6: #991c1c;
-    --container-width: 65vw;
-    --default-container-padding: 30px 0;
-    --default-border-radius: 10px;
-    --default-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
-    --default-transition: 0.2s;
+	--color-0: #121212;
+	--color-1: #1f1f1f;
+	--color-2: #f0f0f0;
+	--color-3: #b9b9b9;
+	--color-4: #8d8d8d;
+	--color-5: #c02525;
+	--color-6: #991c1c;
+	--container-width: 65vw;
+	--default-container-padding: 30px 0;
+	--default-border-radius: 10px;
+	--default-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+	--default-transition: 0.2s;
 }
 
 * {
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    background: var(--color-0);
-    color: var(--color-2);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: var(--color-0);
+	color: var(--color-2);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer {
-    border-top: 1px solid var(--color-1);
+	border-top: 1px solid var(--color-1);
 }
 
 header {
-    position: fixed;
-    width: 100vw;
-    height: 75px;
-    background: var(--color-1);
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	position: fixed;
+	width: 100vw;
+	height: 75px;
+	background: var(--color-1);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 p {
-    color: var(--color-4);
-    line-height: 23px;
+	color: var(--color-4);
+	line-height: 23px;
 }
 
 .btn-red {
-    padding: 10px 25px;
-    color: var(--color-2);
-    background: var(--color-5);
-    border-radius: var(--default-border-radius);
-    transition: var(--default-transition);
+	padding: 10px 25px;
+	color: var(--color-2);
+	background: var(--color-5);
+	border-radius: var(--default-border-radius);
+	transition: var(--default-transition);
 }
 
 .btn-red:hover {
-    background: var(--color-6);
-    transition: var(--default-transition);
+	background: var(--color-6);
+	transition: var(--default-transition);
+}
+
+.btn-social {
+	color: var(--color-5);
+	font-size: 32px;
+	margin-right: 10px;
 }
 
 .card {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
 }
 
 .card-de-habilidade {
-    width: 230px;
-    margin: 30px 0;
+	width: 230px;
+	margin: 30px 0;
 }
 
 .card-de-projeto {
-    width: 400px;
-    margin: 30px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+	width: 400px;
+	margin: 30px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
 }
 
 .btn-red {
-    margin: 30px 0;
+	margin: 30px 0;
 }
 
 .container {
-    width: var(--container-width);
-    margin: 0 auto;
-    padding: var(--default-container-padding);
+	width: var(--container-width);
+	margin: 0 auto;
+	padding: var(--default-container-padding);
 }
 
 .container-de-cards {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .img-card-de-projeto {
-    width: 100%;
-    border-radius: var(--default-border-radius);
-    box-shadow: var(--default-box-shadow);
+	width: 100%;
+	border-radius: var(--default-border-radius);
+	box-shadow: var(--default-box-shadow);
 }
 
 .link-red {
-    color: var(--color-5);
+	color: var(--color-5);
 }
 
 .link-red:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .nav-link {
-    margin: 0 10px;
-    font-weight: bold;
-    color: var(--color-2);
-    transition: var(--default-transition);
+	margin: 0 10px;
+	font-weight: bold;
+	color: var(--color-2);
+	transition: var(--default-transition);
 }
 
 .nav-link:hover {
-    color: var(--color-3);
-    transition: var(--default-transition);
+	color: var(--color-3);
+	transition: var(--default-transition);
 }
 
 .texto-do-card {
-    width: 450px;
+	width: 450px;
 }
 
 .texto-red {
-    color: var(--color-5);
+	color: var(--color-5);
 }
 
 .titulo-da-habilidade {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 #foto-perfil {
-    width: 230px;
-    border-radius: 120px;
+	width: 230px;
+	border-radius: 120px;
 }
 
 #sobre {
-    padding-top: 120px;
+	padding-top: 120px;
 }
 
 @media screen and (max-width: 850px) {
-    .card-de-projeto {
-        width: 100%;
-    }
+	.card-de-projeto {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 1100px) {
-    .texto-do-card {
-        width: 300px;
-    }
+	.texto-do-card {
+		width: 300px;
+	}
 }
