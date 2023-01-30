@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 :root {
 	--color-0: #121212;
 	--color-1: #1f1f1f;
@@ -13,11 +15,6 @@
 	--default-transition: 0.2s;
 }
 
-@font-face {
-	font-family: 'RobotoMono-Regular';
-	src: url(fonts/RobotoMono-Regular.ttf);
-}
-
 * {
 	scroll-behavior: smooth;
 	margin: 0;
@@ -27,7 +24,7 @@
 body {
 	background: var(--color-0);
 	color: var(--color-2);
-	font-family: 'RobotoMono-Regular';
+	font-family: 'Roboto Mono', monospace;
 	letter-spacing: 1px;
 }
 
@@ -154,6 +151,7 @@ p {
 
 .titulo-da-habilidade {
 	margin-bottom: 10px;
+	font-size: 18px;
 }
 
 #foto-perfil {
