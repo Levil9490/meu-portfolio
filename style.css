@@ -38,6 +38,12 @@ a:hover, #logo:hover span {
 	transition: var(--default-transition);
 }
 
+h1 {
+	color: var(--color-2);
+	font-size: 32px;
+	display: inline-block;
+}
+
 header {
 	width: 100vw;
 	height: 75px;
@@ -71,6 +77,40 @@ nav a {
 	margin-right: 10px;
 }
 
+.container-principal {
+	width: var(--container-width);
+	margin: 0 auto;
+}
+
 #sobre {
-	padding-top: 75px;
+	height: 100vh;
+	background: url(img/background-secao-sobre.webp) center fixed no-repeat;
+	display: flex;
+	align-items: center;
+}
+
+#texto-sobre {
+	width: 60vw;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#texto-sobre p {
+	margin: 20px 0;
+}
+
+#botoes-redes-sociais a {
+	font-size: 32px;
+	margin: 0 5px;
+	color: var(--color-5);
+	transition: var(--default-transition);
+}
+
+#botoes-redes-sociais a:hover {
+	color: var(--color-6);
+	transition: var(--default-transition);
+}
+
+.img-do-projeto {
+	width: 700px;
 }
