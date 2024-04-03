@@ -36,6 +36,10 @@ header {
 	box-shadow: var(--default-box-shadow);
 }
 
+a {
+	text-decoration: none;
+}
+
 .header-container {
 	width: var(--container-width);
 	height: 100%;
@@ -65,5 +69,16 @@ header {
 .logo-text {
 	margin-left: 10px;
 	color: var(--color-2);
+	transition: var(--default-transition);
+}
+
+.nav-link {
+	color: var(--color-2);
+	margin-left: 15px;
+	transition: var(--default-transition);
+}
+
+.nav-link:hover {
+	color: var(--color-3);
 	transition: var(--default-transition);
 }
