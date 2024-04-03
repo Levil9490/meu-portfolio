@@ -122,7 +122,7 @@ nav a {
 	margin-bottom: 15px;
 }
 
-#skills span {
+.skill {
 	display: inline-block;
 	background: var(--color-1);
 	border-radius: 5px;
