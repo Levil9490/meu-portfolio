@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 :root {
 	--color-0: #121212;
@@ -11,6 +11,7 @@
 	--container-width: 90vw;
 	--default-container-margin: 0 auto;
 	--container-margin: 70px auto;
+	--text-margin: 20px 0;
 	--default-container-padding: 30px 0;
 	--default-border-radius: 10px;
 	--default-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
@@ -27,6 +28,7 @@
 body {
 	background: var(--color-0);
 	color: var(--color-3);
+	overflow-x: hidden;
 }
 
 header {
@@ -104,7 +106,7 @@ a {
 }
 
 .banner-text {
-	margin: 20px 0;
+	margin: var(--text-margin);
 }
 
 .social-icon {
@@ -117,4 +119,32 @@ a {
 .social-icon:hover {
 	color: var(--color-6);
 	transition: var(--default-transition);
+}
+
+.main-container {
+	width: var(--container-width);
+	margin: var(--container-margin);
+}
+
+#about-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-me,
+.skills {
+	width: 45%;
+}
+
+.about-me p,
+.skills div {
+	margin: var(--text-margin);
+}
+
+.skill {
+	background: var(--color-1);
+	display: inline-block;
+	padding: 8px;
+	border-radius: 5px;
+	margin: 0 5px 5px 0;
 }
