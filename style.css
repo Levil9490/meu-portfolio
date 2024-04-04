@@ -136,6 +136,7 @@ a {
 #about-content {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .about-me,
@@ -186,8 +187,15 @@ a {
 }
 
 /* Responsividade */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+	.header-container,
 	.banner-content {
 		width: 90vw;
+	}
+
+	.about-me,
+	.skills {
+		width: 100%;
+		text-align: center;
 	}
 }
