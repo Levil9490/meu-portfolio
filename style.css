@@ -184,3 +184,10 @@ a {
 .project-title h1 i {
 	font-size: 16px;
 }
+
+/* Responsividade */
+@media (max-width: 576px) {
+	.banner-content {
+		width: 90vw;
+	}
+}
