@@ -189,7 +189,8 @@ a {
 /* Responsividade */
 @media (max-width: 768px) {
 	.header-container,
-	.banner-content {
+	.banner-content,
+	.main-container {
 		width: 90vw;
 	}
 
