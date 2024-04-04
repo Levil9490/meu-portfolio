@@ -8,7 +8,7 @@
 	--color-4: #8d8d8d;
 	--color-5: #c02525;
 	--color-6: #991c1c;
-	--container-width: 90vw;
+	--container-width: 70vw;
 	--default-container-margin: 0 auto;
 	--container-margin: 70px auto;
 	--text-margin: 20px 0;
@@ -147,4 +147,33 @@ a {
 	padding: 8px;
 	border-radius: 5px;
 	margin: 0 5px 5px 0;
+}
+
+.projects h1 {
+	text-align: center;
+}
+
+.project {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 60px 0;
+}
+
+.project-img {
+	width: 35%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.project-description {
+	width: 45%;
+}
+
+.project-title {
+	display: inline-block;
+}
+
+.project-title h1 i {
+	font-size: 16px;
 }
